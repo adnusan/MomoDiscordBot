@@ -4,7 +4,6 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = discord.Client(intents=intents)
-tkn = "deleteOTM4MzY0MDAwNzEyOTMzMzc3.GjhlMO.sFBRvvJNg59wE-xR0BRd4kWsLnP1hoNSYfhVkkdelete"
 #getting token from txt file
 with open("token.txt", "r") as f:
     token = f.read()
