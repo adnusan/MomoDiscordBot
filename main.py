@@ -1,5 +1,3 @@
-
-    
 import discord
 
 intents = discord.Intents.default()
@@ -30,6 +28,15 @@ async def on_voice_state_update(member, before, after):
         # User just joined a voice channel
         voice_channel = after.channel
         print(f"{member} joined {voice_channel}")
-        await voice_channel.connect()      
+        await voice_channel.connect()
+        
+    #disconnect from voice channel when all user leaves  room
+    if before.channel is not None and after.channel is None:
+        # User just left a voice channel
+        voice_channel = before.channel
+        print(f"{member} left {voice_channel}")
+        if len(voice_channel.members) == 0:
+            await voice_channel.guild.voice_client.disconnect()
+         
 
 client.run(token)
