@@ -1,27 +1,22 @@
-# MomoDiscordBot
-# 
-
+### MomoDiscordBot
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Discord bot to announce when guild member joins/leave.
+Discord bot to announce when guild member joins/leave voice channel.
 
 
 ### Built With
-
-* [Discord.py]:https://pypi.org/
-* [![Next][Next.js]][Next-url]
-* [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+* [Discord.py](https://pypi.org/project/discord.py/) 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
-* discord
-  * [![Discord][Discord]][https://discord.com/developers/docs/intro]
+* Discord bot token
+  https://discord.com/developers/docs/intro
 * python
-  * [![Python][Python.py]][https://www.python.org/downloads/]
+  https://www.python.org/downloads/
 
 
 ### Installation
