@@ -9,7 +9,7 @@ Discord bot to announce when guild member joins/leave.
 
 ### Built With
 
-* [Discord.py]:[https://pypi.org/]
+* [Discord.py]:https://pypi.org/
 
 
 <!-- GETTING STARTED -->
