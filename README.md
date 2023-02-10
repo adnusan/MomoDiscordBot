@@ -14,9 +14,9 @@ Discord bot to announce when guild member joins/leave voice channel.
 
 ### Prerequisites
 * Discord bot token
-  https://discord.com/developers/docs/intro
+  *[Setup Discord Bot](https://discord.com/developers/docs/intro)
 * python
-  https://www.python.org/downloads/
+  *[Install Python](https://www.python.org/downloads/)
 
 
 ### Installation
