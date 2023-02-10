@@ -39,3 +39,4 @@ Discord bot to announce when guild member joins/leave voice channel.
     pip install pynacl
    ```
 4. Create a token.txt and enter discord bot token
+5. Run the program
