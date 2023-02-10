@@ -11,6 +11,8 @@ Discord bot to announce when guild member joins/leave.
 
 * [Discord.py]:https://pypi.org/
 * [![Next][Next.js]][Next-url]
+* [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
